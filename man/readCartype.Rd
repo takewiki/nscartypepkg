@@ -4,8 +4,11 @@
 \alias{readCartype}
 \title{读取车型信息}
 \usage{
-readCartype(file_cartype, heading = c("品牌", "车型",
-  "业务对象（近义词）", "业务对象（同义词）"))
+readCartype(
+  file_cartype,
+  heading = c("品牌", "车型", "业务对象（近义词）",
+    "业务对象（同义词）")
+)
 }
 \arguments{
 \item{file_cartype}{车型文件}
