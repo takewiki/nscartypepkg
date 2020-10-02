@@ -3,7 +3,7 @@
 export(carType.delete.callback)
 export(carType.insert.callback)
 export(carType.update.callback)
-export(getCarType)
+export(getCarType_md)
 export(readCartype)
 export(readCartype_db)
 export(selectCarType)

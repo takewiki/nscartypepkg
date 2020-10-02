@@ -4,8 +4,13 @@
 \alias{carType.insert.callback}
 \title{定义插入数据类型}
 \usage{
-carType.insert.callback(data, row, table = "t_md_carType",
-  f = getCarType, id_var = "FCartypeName")
+carType.insert.callback(
+  data,
+  row,
+  table = "t_md_carType",
+  f = getCarType,
+  id_var = "FCartypeName"
+)
 }
 \arguments{
 \item{data}{数据}

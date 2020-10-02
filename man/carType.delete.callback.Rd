@@ -4,8 +4,13 @@
 \alias{carType.delete.callback}
 \title{品牌车型的删除}
 \usage{
-carType.delete.callback(data, row, table = "t_md_carType",
-  f = getCarType, id_var = "FCartypeName")
+carType.delete.callback(
+  data,
+  row,
+  table = "t_md_carType",
+  f = getCarType,
+  id_var = "FCartypeName"
+)
 }
 \arguments{
 \item{data}{数据}

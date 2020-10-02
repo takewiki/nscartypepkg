@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' getCarType
-getCarType <- function(table='t_md_carType') {
+getCarType_md <- function(table='t_md_carType') {
   #建立链接
   conn <-conn_rds('nsic')
   sql <- sql_gen_select(conn,table = table)

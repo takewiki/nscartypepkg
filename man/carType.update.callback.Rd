@@ -4,9 +4,15 @@
 \alias{carType.update.callback}
 \title{更新数据类型}
 \usage{
-carType.update.callback(data, olddata, row, table = "t_md_carType",
-  f = getCarType, edit.cols = c("FCartypeName", "FBusiObj_like",
-  "FBusiOjb_same"), id_var = "FCartypeName")
+carType.update.callback(
+  data,
+  olddata,
+  row,
+  table = "t_md_carType",
+  f = getCarType,
+  edit.cols = c("FCartypeName", "FBusiObj_like", "FBusiOjb_same"),
+  id_var = "FCartypeName"
+)
 }
 \arguments{
 \item{data}{数据}
